@@ -1,0 +1,15 @@
+A Hook is a regular javascript function.
+
+1) useState hooks
+
+*useState is a hook allow us to use react feature of state without making a class component.
+console.log(useState(value)) => returns an array with two values.
+[value //current value of state,  function() //to update current value of state]
+
+* using setState in class components- only change the updated value of state
+* using setState in Hooks- replace the whole state object and other properties will be undefined
+
+2)useEffect hooks
+
+*It accepts a function as an argument, this function is called effect
+*Every time the component re rendered, the function is re declared and also for the initial render
