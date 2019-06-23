@@ -5,6 +5,7 @@ import Count from './components/count';
 import Form1 from './components/form1';
 import Form2 from './components/form2';
 import UseeffectCount from './components/countUseEffect';
+import UseeffectCount2 from './components/countUseEffect2'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
      <Form1/>
      <Form2/>
      <UseeffectCount/>
+     <UseeffectCount2/>
      
     </div>
   );

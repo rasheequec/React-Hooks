@@ -12,7 +12,12 @@ function UseeffectCount(){
     }
 
     useEffect(()=>{
+        //componentDidMount
         console.log(`Im inside the use Effect function, The count value is ${count}`)
+        //componentDidUpdate
+        return () =>{
+        console.log(`Iam removing anything that was set up above : ${count}`)
+        }
     })
   
 
